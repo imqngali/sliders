@@ -1,0 +1,24 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #00bcd4a8;
+}
+
+.slides_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slides_card {
+    width: 23%;
+    border: 1px black solid;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.slides_card > h1 {
+    font-size: 20px;
+}
