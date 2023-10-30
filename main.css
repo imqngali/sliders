@@ -3,13 +3,43 @@ html {
 }
 
 body {
-    background: #00bcd4a8;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.tips {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tips_item {
+    display: flex;
+    align-items: center;
+}
+
+.tips_item>div:first-child {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.tips_item_text {
+    font-style: italic;
+    margin-left: 10px;
+    font-size: 12px;
 }
 
 .slides_inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .slides_card {
@@ -17,8 +47,34 @@ body {
     border: 1px black solid;
     padding: 20px 0;
     text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
 }
 
 .slides_card > h1 {
     font-size: 20px;
+}
+
+.slides_header {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    margin-bottom: 20px;
+}
+
+.green {
+    background-color: #09e009;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.ofs {
+    overflow-x: scroll;
 }
